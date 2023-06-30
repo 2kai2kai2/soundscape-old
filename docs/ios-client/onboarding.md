@@ -31,22 +31,14 @@ xcode-select --install
 _Note:_ while macOS comes with a version of Ruby installed, you should install and use a non-system [Ruby](https://www.ruby-lang.org/)
 using a version manager like [RVM](https://rvm.io/)
 
-## Install CocoaPods and CocoaPods-Patch
+## Install Fastlane
 
-Soundscape uses [CocoaPods](https://cocoapods.org/) as a dependency managers along with [Swift Package Manager](https://www.swift.org/package-manager/), and [CocoaPods-Patch](https://github.com/DoubleSymmetry/cocoapods-patch) to add changes to a third party CocoaPods framework.
+Soundscape uses Fastlane for production CD tools. This may not be necessary for local development.
 
 In the iOS project folder, run the following command to install the dependencies from the `Gemfile`:
 
 ```sh
 bundle install
-```
-
-## Install CocoaPods Dependencies
-
-Install the CocoaPods dependencies by running the following command in Terminal from the iOS project folder:
-
-```sh
-pod install
 ```
 
 ## Opening the Project

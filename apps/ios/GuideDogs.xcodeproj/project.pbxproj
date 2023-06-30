@@ -662,8 +662,8 @@
 		62EACA2B26697F4300DBDECC /* WaypointDetailAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EACA2A26697F4300DBDECC /* WaypointDetailAnnotationView.swift */; };
 		62F7A30C27B6080900C62390 /* InteractiveBeaconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F7A30B27B6080900C62390 /* InteractiveBeaconView.swift */; };
 		62F7A30E27B6082A00C62390 /* InteractiveBeaconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F7A30D27B6082A00C62390 /* InteractiveBeaconViewModel.swift */; };
+		91C82AA32A4B69960086D126 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 91C82AA22A4B69960086D126 /* CoreGPX */; };
 		91DC0CF92A46134600244CC8 /* GeometryUtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914DEBDC2A3CE901007B161C /* GeometryUtilsTest.swift */; };
-		B5499F0EEDE32E16F9814457 /* Pods_Soundscape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEDD72453A8268FBA604D2F /* Pods_Soundscape.framework */; };
 		B90C27D61EAF81D600007368 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90C27D51EAF81D600007368 /* Sound.swift */; };
 		B918EE9825100FFF00A5354A /* CalloutRangeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B918EE9725100FFF00A5354A /* CalloutRangeContext.swift */; };
 		B91D3F6427AB5546004159A8 /* UserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D3F6327AB5546004159A8 /* UserAction.swift */; };
@@ -1297,14 +1297,12 @@
 		31F12C4122569E9100BDA072 /* StreetSuffixAbbreviations_fr.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = StreetSuffixAbbreviations_fr.plist; path = Assets/PropertyLists/StreetSuffixAbbreviations_fr.plist; sourceTree = "<group>"; };
 		31F1370322B867B800FC1860 /* GeolocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeolocationManager.swift; path = "Code/Sensors/Geolocation/Geolocation Manager/GeolocationManager.swift"; sourceTree = "<group>"; };
 		31FE6C77233A7B760098D8C5 /* TelemetryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TelemetryHelper.swift; path = Code/App/Logging/TelemetryHelper.swift; sourceTree = "<group>"; };
-		4947404B8209AB0A5F3B0EB1 /* Pods-Soundscape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundscape.release.xcconfig"; path = "Target Support Files/Pods-Soundscape/Pods-Soundscape.release.xcconfig"; sourceTree = "<group>"; };
 		568480881CB73F51004B4227 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		5684808F1CBC975E004B4227 /* Soundscape-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = "Soundscape-Bridging-Header.h"; path = "Code/App/Soundscape-Bridging-Header.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		568480901CBC9C94004B4227 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = HomeViewController.swift; path = "Code/Visual UI/View Controllers/Home/HomeViewController.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		568480921CBC9CEE004B4227 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SettingsViewController.swift; path = "Code/Visual UI/View Controllers/Settings/SettingsViewController.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		568480971CBD6A19004B4227 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		568480A31CBDA685004B4227 /* POITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = POITableViewCell.swift; path = "Code/Visual UI/Controls/UITableView/POITableViewCell.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		5A99A67E08FC20519550F09D /* Pods-Soundscape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundscape.debug.xcconfig"; path = "Target Support Files/Pods-Soundscape/Pods-Soundscape.debug.xcconfig"; sourceTree = "<group>"; };
 		620118C724AAB489004B0380 /* LocationAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAction.swift; sourceTree = "<group>"; };
 		620118C824AAB489004B0380 /* LocationActionAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationActionAlert.swift; sourceTree = "<group>"; };
 		620118C924AAB489004B0380 /* LocationActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationActionDelegate.swift; sourceTree = "<group>"; };
@@ -1577,9 +1575,6 @@
 		62F7A30D27B6082A00C62390 /* InteractiveBeaconViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBeaconViewModel.swift; sourceTree = "<group>"; };
 		914DEBCD2A3CE6B9007B161C /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914DEBDC2A3CE901007B161C /* GeometryUtilsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryUtilsTest.swift; sourceTree = "<group>"; };
-		91DC0CF32A460FAA00244CC8 /* iOS_GPX_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOS_GPX_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91DC0CF52A460FAA00244CC8 /* Pods_Soundscape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Soundscape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91DC0CF72A460FAA00244CC8 /* TBXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TBXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90C27D51EAF81D600007368 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sound.swift; path = Code/Audio/Protocols/Sound.swift; sourceTree = "<group>"; };
 		B918EE9725100FFF00A5354A /* CalloutRangeContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutRangeContext.swift; sourceTree = "<group>"; };
 		B91D3F6327AB5546004159A8 /* UserAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAction.swift; sourceTree = "<group>"; };
@@ -1813,8 +1808,6 @@
 		D3CE458E1C1737AE00AC1A25 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D3D7CFC81B3D96470020B5E9 /* Soundscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E2A6361CAD5CA100A5192A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		DAEDD72453A8268FBA604D2F /* Pods_Soundscape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundscape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1C725071707AF59CE42CF40 /* Pods-Soundscape.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundscape.adhoc.xcconfig"; path = "Target Support Files/Pods-Soundscape/Pods-Soundscape.adhoc.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1835,12 +1828,12 @@
 				2866A7C92625020600EBA2D8 /* AppCenterCrashes in Frameworks */,
 				286145F1262509DA000E5525 /* WindowsAzureMessaging in Frameworks */,
 				286F409D2624FF6000C3F80B /* NVActivityIndicatorView in Frameworks */,
+				91C82AA32A4B69960086D126 /* CoreGPX in Frameworks */,
 				2866A7D5262502D500EBA2D8 /* CocoaLumberjackSwift in Frameworks */,
 				286145EB2625099F000E5525 /* SDWebImage in Frameworks */,
 				281BCBFF262638290031298D /* RealmSwift in Frameworks */,
 				28F1ECE2262505DC00E964C0 /* Realm in Frameworks */,
 				2866A7C12625013400EBA2D8 /* DZNEmptyDataSet in Frameworks */,
-				B5499F0EEDE32E16F9814457 /* Pods_Soundscape.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3023,7 +3016,6 @@
 				D334CB751B9F682400546BF1 /* MapKit.framework */,
 				D3CE458E1C1737AE00AC1A25 /* MobileCoreServices.framework */,
 				D384DE871B867AD400884DE5 /* ReplayKit.framework */,
-				DAEDD72453A8268FBA604D2F /* Pods_Soundscape.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -4302,16 +4294,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		94B9789D44F5F13621A0C9B1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5A99A67E08FC20519550F09D /* Pods-Soundscape.debug.xcconfig */,
-				4947404B8209AB0A5F3B0EB1 /* Pods-Soundscape.release.xcconfig */,
-				E1C725071707AF59CE42CF40 /* Pods-Soundscape.adhoc.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		B91D3F6227AB5546004159A8 /* User Actions */ = {
 			isa = PBXGroup;
 			children = (
@@ -5141,7 +5123,6 @@
 				914DEBCE2A3CE6B9007B161C /* UnitTests */,
 				4AD48659F673FA58D2DF2C07 /* Frameworks */,
 				D3D7CFC91B3D96470020B5E9 /* Products */,
-				94B9789D44F5F13621A0C9B1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -5189,13 +5170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3D7CFEE1B3D96470020B5E9 /* Build configuration list for PBXNativeTarget "Soundscape" */;
 			buildPhases = (
-				AA3DA63581E438C1AB55C6CC /* [CP] Check Pods Manifest.lock */,
 				D3D7CFC41B3D96460020B5E9 /* Sources */,
 				D3D7CFC51B3D96460020B5E9 /* Frameworks */,
 				D3D7CFC61B3D96460020B5E9 /* Resources */,
 				B9B06E971E6483900010936A /* CopyFiles */,
 				31500FEE224CA30000BD0A4E /* Localization Validation */,
-				81B7791EAB5FA4B62EA6B44D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -5214,6 +5193,7 @@
 				286145F0262509DA000E5525 /* WindowsAzureMessaging */,
 				281BCBFE262638290031298D /* RealmSwift */,
 				283B0306264B03920092F74F /* SDWebImageSwiftUI */,
+				91C82AA22A4B69960086D126 /* CoreGPX */,
 			);
 			productName = GuideDogs;
 			productReference = D3D7CFC81B3D96470020B5E9 /* Soundscape.app */;
@@ -5291,6 +5271,7 @@
 				286145E92625099F000E5525 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				286145EF262509DA000E5525 /* XCRemoteSwiftPackageReference "azure-notificationhubs-ios" */,
 				283B0305264B03920092F74F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				91C82AA12A4B69960086D126 /* XCRemoteSwiftPackageReference "CoreGPX" */,
 			);
 			productRefGroup = D3D7CFC91B3D96470020B5E9 /* Products */;
 			projectDirPath = "";
@@ -5465,59 +5446,9 @@
 			shellPath = /bin/sh;
 			shellScript = "# Only run in debug type builds (\"Debug\", \"Debug-FF\", etc)\nif [[ ${CONFIGURATION} == \"Debug\"* ]]; then\n    ${SRCROOT}/Scripts/LocalizationLinter/main.swift\n    echo \"Skipping Localization Validation script (non-debug build)\"\nelse \n    echo \"Skipping Localization Validation script (non-debug build)\"\nfi\n";
 		};
-		81B7791EAB5FA4B62EA6B44D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Soundscape/Pods-Soundscape-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TBXML/TBXML.framework",
-				"${BUILT_PRODUCTS_DIR}/iOS-GPX-Framework/iOS_GPX_Framework.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBXML.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_GPX_Framework.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soundscape/Pods-Soundscape-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA3DA63581E438C1AB55C6CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Soundscape-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		914DEBC92A3CE6B9007B161C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91DC0CF92A46134600244CC8 /* GeometryUtilsTest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3D7CFC41B3D96460020B5E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -6358,7 +6289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZED_STRING_MACRO_NAMES = (
 					NSLocalizedString,
 					CFLocalizedString,
@@ -6379,7 +6310,6 @@
 		};
 		3163C7431DFDB27D00C9E605 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C725071707AF59CE42CF40 /* Pods-Soundscape.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Beta";
 				BUNDLE_SPOKEN_NAME = "Soundscape AdHoc";
@@ -6667,7 +6597,6 @@
 		};
 		D3D7CFEF1B3D96470020B5E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A99A67E08FC20519550F09D /* Pods-Soundscape.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Beta";
 				BUNDLE_SPOKEN_NAME = "Soundscape Debug";
@@ -6730,7 +6659,6 @@
 		};
 		D3D7CFF01B3D96470020B5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4947404B8209AB0A5F3B0EB1 /* Pods-Soundscape.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_SPOKEN_NAME = Soundscape;
@@ -6898,6 +6826,14 @@
 				version = 10.11.0;
 			};
 		};
+		91C82AA12A4B69960086D126 /* XCRemoteSwiftPackageReference "CoreGPX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vincentneo/CoreGPX.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -6955,6 +6891,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 28F1ECE0262505DC00E964C0 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = Realm;
+		};
+		91C82AA22A4B69960086D126 /* CoreGPX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91C82AA12A4B69960086D126 /* XCRemoteSwiftPackageReference "CoreGPX" */;
+			productName = CoreGPX;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
