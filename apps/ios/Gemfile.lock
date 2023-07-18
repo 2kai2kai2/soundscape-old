@@ -276,6 +276,7 @@ GEM
     zeitwerk (2.6.4)
 
 PLATFORMS
+  x86_64-darwin-20
   x86_64-darwin-21
   x86_64-darwin-22
 
@@ -285,4 +286,4 @@ DEPENDENCIES
   fastlane
 
 BUNDLED WITH
-   2.3.23
+   2.4.14
